@@ -5,6 +5,8 @@ const database = {
           about: "Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.",
           designation: ["Freelancer", "Jr. Javascript Developer", "Graphic Designer", "Writer", "Sketch Artist"],
           welcomingMessage: ["Hello", "হ্যালো", "Holá", "ٱلسَّلَامُ عَلَيْكُمْ", "你好", "Bonjour", "नमस्त"],
+          heroImage1: "https://i.ibb.co/k8d5GXL/hero-1.webp",
+          heroImage2: "https://i.ibb.co/FmtzcxF/hero-2.webp"
      },
      languages: [
           {

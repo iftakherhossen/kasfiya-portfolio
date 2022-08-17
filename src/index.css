@@ -17,11 +17,10 @@ body {
   scroll-behavior: smooth !important;
   background-color: white;
   color: black !important;
-  background-image: url('../public/body-bg.webp');
+  background-image: url('https://i.ibb.co/BwpzLj2/body-bg.webp');
   user-select: none;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }

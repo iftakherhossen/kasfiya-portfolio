@@ -49,7 +49,7 @@ const HeroSection = () => {
                          </div>
                     </div>
                     <div className="flex justify-center items-center px-6 md:px-0" data-aos="fade-left">
-                         <img src="./hero-1.webp" alt="hero-1" className="sm:w-[445px] md:w-[600px]" draggable={false} />
+                         <img src={database.myself.heroImage1} alt="hero-1" className="sm:w-[445px] md:w-[600px]" draggable={false} />
                     </div>
                </div>
           </section>

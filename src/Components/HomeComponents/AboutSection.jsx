@@ -7,7 +7,7 @@ const AboutSection = () => {
           <section id="about">
                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-full md:h-[700px] py-20">
                     <div className="flex justify-center items-center px-6 md:px-0"  data-aos="fade-right">
-                         <img src="./hero-2.webp" alt="hero-2" className="sm:w-[445px] md:w-[600px]" draggable={false} />
+                         <img src={database.myself.heroImage2} alt="hero-2" className="sm:w-[445px] md:w-[600px]" draggable={false} />
                     </div>
                     <div className="flex items-end justify-start w-full h-full md:w-3/4 md:h-3/4 px-8 md:px-0 mt-5"  data-aos="fade-left">
                          <div>

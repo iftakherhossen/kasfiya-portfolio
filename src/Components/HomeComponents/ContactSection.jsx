@@ -45,7 +45,6 @@ const ContactSection = () => {
                                         className="input input-bordered w-full max-w-xs text-[1em] md:max-w-sm focus:outline-0 bg-[#FCFAFC] my-2 required:border-[#D0B3FF]"
                                         name="name"
                                         required
-                                        autoFocus
                                    />
                                    <input
                                         type="text"

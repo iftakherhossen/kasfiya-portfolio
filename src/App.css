@@ -41,7 +41,7 @@
 }
 
 .bg-image {
-     background-image: url('../public/contact-bg.webp') !important;
+     background-image: url('https://i.ibb.co/FxN1TdS/contact-bg.webp') !important;
      background-repeat: no-repeat !important;
      background-position: center;
 }
