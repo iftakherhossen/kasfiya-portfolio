@@ -10,7 +10,7 @@ const SingleBlog = () => {
      return (
           <div>
                <Navigation />
-               <div className="container mx-auto py-8 md:pt-36 md:pb-16 px-6">
+               <div className="container mx-auto py-8 md:pt-32 md:pb-16 px-6">
                     <div className="grid grid-cols-1 md:grid-cols-3 grid-flow-row-dense gap-5">
                          <div className="md:col-span-2">
                               <MainContent />

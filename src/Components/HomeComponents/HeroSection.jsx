@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import Typewriter from 'typewriter-effect';
 import database from '../../assets/database';
 
-const HeroSection = () => {
+const HeroSection = () => {    
      return (
           <section id="home">
                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-[800px] pt-60 mb-10">
@@ -18,20 +17,23 @@ const HeroSection = () => {
                                                        strings: database.myself.welcomingMessage,
                                                        autoStart: true,
                                                        loop: true,
-                                                       stopFor: 3000
+                                                       cursor: "",
+                                                       pauseFor: 10000
                                                   }}
                                                   style={{ cursor: 'none' }}
                                              />
                                         </h3>
                                         <div className="border-[1px] border-black w-2/3 ml-4"></div>
                                    </div>
-                                   <h1 className="text-5xl uppercase font-black my-4">{database.myself.name}</h1>
+                                   <h1 className="text-5xl uppercase font-black my-4">I am {database.myself.name}</h1>
                                    <h4 className="text-2xl font-bold">
                                         <Typewriter
                                              options={{
                                                   strings: database.myself.designation,
                                                   autoStart: true,
                                                   loop: true,
+                                                  cursor: "_",
+                                                  pauseFor: 7000
                                              }}
                                         />
                                    </h4>
