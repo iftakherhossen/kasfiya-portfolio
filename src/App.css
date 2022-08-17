@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.btn-bg {
+     background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlay {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .4s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.figure:hover .overlay {
+     opacity: 0.8;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.overlay2 {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     height: 100%;
+     width: 100%;
+     opacity: 0;
+     transition: .4s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.figure2:hover .overlay2 {
+     opacity: 0.8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rec.jhmYzC,
+.krmNah {
+     border-color: #4458dc !important;
+     background-color: white !important;
+}
+
+.bg-image {
+     background-image: url('../public/contact-bg.webp') !important;
+     background-repeat: no-repeat !important;
+     background-position: center;
+}
+
+.overlay-text {
+     position: absolute;
+     bottom: 0;
+     background: #EBEBF5;
+     background: #ebebf5cb;
+     /* Black see-through */
+     width: auto;
+     transition: .5s ease;
+     opacity: 0;
+     color: white;
+     padding: 20px;
+}
+
+.figure3:hover .overlay-text {
+     opacity: 1;
+}
+
+.is-current {
+     border-bottom: 5px solid #4458dc;
 }
