@@ -1,8 +1,9 @@
-import React from 'react';
-import database from '../../assets/database';
-import { BiCategoryAlt, BiTime } from 'react-icons/bi';
 import moment from 'moment';
+import React from 'react';
+import { BiCategoryAlt, BiTime } from 'react-icons/bi';
 import { useParams } from 'react-router-dom';
+import database from '../../assets/database';
+import SharingOptionsSections from './SharingOptionsSections';
 
 const MainContent = () => {
      const params = useParams();
@@ -14,6 +15,7 @@ const MainContent = () => {
                     <figure>
                          <img src={blog.image} alt={blog.title} className="w-full h-[420px]" />
                     </figure>
+
                     <div className="px-2 pb-9">
                          <div className="pt-5 pb-2">
                               <h1 className="text-3xl font-bold">{blog.title}</h1>
@@ -26,6 +28,8 @@ const MainContent = () => {
                     <div className="px-2 pb-5">
                          <p className="text-lg leading-relaxed text-slate-600 first-letter:capitalize whitespace-pre-wrap text-medium">{blog.content}.</p>
                     </div>
+
+                    <SharingOptionsSections blog={blog} />
                </div>
           </div>
      );

@@ -35,10 +35,12 @@ const database = {
           resumeLink: "https://drive.google.com/file/d/15uQKhkpsssSMsrfdeA4cfpoj--T2jm9b/view?fbclid=IwAR1eweNKHMGjXPfnqypdmjVoU94aHMVRy4fhNr8Yr-c55uJepb78rEZ0CcM",
           resumeDownloadLink: "https://drive.google.com/uc?export=download&id=15uQKhkpsssSMsrfdeA4cfpoj--T2jm9b",
           facebook: "https://www.facebook.com/Kasfiya.Upoma",
+          twitter: "https://twitter.com/KasfiyaUpoma",
           github: "https://github.com/KasfiyaUpoma",
           instagram: "https://www.instagram.com/kasfiya__upoma/",
           linkedIn: "https://www.linkedin.com/in/kasfiya-rab-bin-noor-upoma-308b4117b/",
           phone: "+88018646597",
+          email: "kupoma07@gmail.com"
      },
      descriptions: {
           aboutText1: "Whose given. Were gathered. There first subdue greater. Bearing you Whales heaven midst their. Beast creepeth. Fish days.",

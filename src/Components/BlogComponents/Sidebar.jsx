@@ -3,6 +3,7 @@ import SearchBarSection from './SearchBarSection';
 import LatestPostSection from './LatestPostSection';
 import SubscribeSection from './SubscribeSection';
 import GithubSection from './GithubSection';
+import TwitterSection from './TwitterSection';
 
 const Sidebar = () => {
      return (
@@ -12,6 +13,7 @@ const Sidebar = () => {
                     <LatestPostSection />
                     <SubscribeSection />
                     <GithubSection />
+                    <TwitterSection />
                </div>
           </div>
      );

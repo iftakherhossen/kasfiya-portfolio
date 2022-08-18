@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from 'react-icons/fa';
 import database from '../../assets/database';
 
 const AboutSection = () => {
@@ -22,17 +22,17 @@ const AboutSection = () => {
                               <div className="mt-8 flex items-center justify-end">
                                    <div className="border-[1px] border-slate-300 w-2/4 mr-3 shadow-sm"></div>
                                    <div className="flex items-center">
-                                        <a href={database.links.facebook} className="mx-1 text-2xl">
-                                             <FaFacebook />
+                                        <a href={`mailto:${database.links.email}`} className="mx-1 text-2xl">
+                                             <FaEnvelope />
                                         </a>
                                         <a href={database.links.github} className="mx-1 text-2xl">
                                              <FaGithub />
                                         </a>
-                                        <a href={database.links.instagram} className="mx-1 text-2xl">
-                                             <FaInstagram />
-                                        </a>
                                         <a href={database.links.linkedIn} className="ml-1 text-2xl">
                                              <FaLinkedin />
+                                        </a>
+                                        <a href={`tel:${database.links.phone}`} className="ml-2 text-xl">
+                                             <FaPhone />
                                         </a>
                                    </div>
                               </div>
